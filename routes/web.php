@@ -12,5 +12,19 @@
 */
 
 Route::get('/', function () {
+//    $data = ['name' => Auth::user()->getAuthIdentifier()];
+//    return view('home',['data' => isset($data) ? $data : null]);
     return view('welcome');
+})->middleware('auth');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+
+Route::get('home/showwelcome', function (){
+    return (new App\Http\Controllers\HomeController())->showwelcome();
 });
+
+Route::get('home/showdetail/{name}/{email}','HomeController@showdetails');
+Route::get('/about','PagesControllers@about');
+Route::get('/contact','PagesControllers@contact');
