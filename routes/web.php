@@ -46,6 +46,7 @@ Route::get('/backend/widgets', 'Backend\BackendController@widgets');
 
 // admin routes
 Route::get('/admin', 'Admin\AdminController@index');
+Route::get('/admin/dashboard', 'Admin\AdminController@index2');
 
 
 
@@ -60,3 +61,6 @@ Route::get('/frontend/error404', 'Frontend\FrontendController@error404');
 Route::get('/frontend/login', 'Frontend\FrontendController@login');
 Route::get('/frontend/product_details', 'Frontend\FrontendController@product_details');
 Route::get('/frontend/shop', 'Frontend\FrontendController@shop');
+
+
+Route::get('/test', 'Frontend\FrontendController@test');

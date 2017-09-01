@@ -21,4 +21,12 @@ class AdminController extends Controller
         ];
         return view('admin/index',['data' => isset($data) ? $data : null]);
     }
+    public function index2() {
+        $data = ['mobile' => [
+            'iphone',
+            'Samsung'
+        ]
+        ];
+        return view('admin/index2',['data' => isset($data) ? $data : null]);
+    }
 }

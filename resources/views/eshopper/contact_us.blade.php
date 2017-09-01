@@ -128,7 +128,7 @@
 										<li><a href="{{action('Frontend\FrontendController@blog_single')}}">Blog Single</a></li>
                                     </ul>
                                 </li> 
-								<li><a href="{{action('Frontend\FrontendController@erorr404')}}">404</a></li>
+								<li><a href="{{action('Frontend\FrontendController@error404')}}">404</a></li>
 								<li><a href="{{action('Frontend\FrontendController@contact_us')}}" class="active">Contact</a></li>
 							</ul>
 						</div>

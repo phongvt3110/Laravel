@@ -93,4 +93,12 @@ class FrontendController extends Controller
         ];
         return view('eshopper/shop',['data' => isset($data) ? $data : null]);
     }
+    public function test() {
+        $data = ['mobile' => [
+            'iphone',
+            'Samsung'
+        ]
+        ];
+        return view('test',['data' => isset($data) ? $data : null]);
+    }
 }

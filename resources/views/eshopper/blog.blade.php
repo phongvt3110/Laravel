@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Blog | E-Shopper</title>
-    <link href="{{asset('../resources/assets/eshopper/css/bootstrap.min.css" rel="stylesheet')}}">
+    <link href="{{asset('../resources/assets/eshopper/css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('../resources/assets/eshopper/css/font-awesome.min.css')}}" rel="stylesheet">
     <link href="{{asset('../resources/assets/eshopper/css/prettyPhoto.css')}}" rel="stylesheet">
     <link href="{{asset('../resources/assets/eshopper/css/price-range.css')}}" rel="stylesheet">
@@ -124,12 +124,12 @@
                                 </li>
 								<li class="dropdown"><a href="#" class="active">Blog<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
-                                        <li><a href="blog.blade.php" class="active">Blog List</a></li>
-										<li><a href="blog_single.blade.php">Blog Single</a></li>
+                                        <li><a href="{{action('Frontend\FrontendController@blog')}}" class="active">Blog List</a></li>
+										<li><a href="{{action('Frontend\FrontendController@blog_single')}}">Blog Single</a></li>
                                     </ul>
                                 </li>
-								<li><a href="error404.blade.php">404</a></li>
-								<li><a href="contact_us.blade.php">Contact</a></li>
+								<li><a href="{{action('Frontend\FrontendController@error404')}}">404</a></li>
+								<li><a href="{{action('Frontend\FrontendController@contact_us')}}">Contact</a></li>
 							</ul>
 						</div>
 					</div>
