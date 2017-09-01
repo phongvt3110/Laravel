@@ -47,6 +47,8 @@ Route::get('/backend/widgets', 'Backend\BackendController@widgets');
 // admin routes
 Route::get('/admin', 'Admin\AdminController@index');
 Route::get('/admin/dashboard', 'Admin\AdminController@index2');
+Route::get('/admin/pages/widgets', 'Admin\Pages\WidgetsController@widgets');
+Route::get('/admin/pages/calendar', 'Admin\Pages\CalendarController@calendar');
 
 
 
