@@ -6,27 +6,27 @@
     <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
     <meta name="author" content="GeeksLabs">
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
-    <link rel="shortcut icon" href="{{asset('../resources/assets/niceadmin/img/favicon.png')}}">
+    <link rel="shortcut icon" href="{{asset('/resources/assets/niceadmin/img/favicon.png')}}">
 
     <title>Widgets | Creative - Bootstrap 3 Responsive Admin Template</title>
 
     <!-- Bootstrap CSS -->
-    <link href="{{asset('../resources/assets/niceadmin/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/resources/assets/niceadmin/css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- bootstrap theme -->
-    <link href="{{asset('../resources/assets/niceadmin/css/bootstrap-theme.css')}}" rel="stylesheet">
+    <link href="{{asset('/resources/assets/niceadmin/css/bootstrap-theme.css')}}" rel="stylesheet">
     <!-- external css -->
     <!-- font icon -->
-    <link href="{{asset('../resources/assets/niceadmin/css/elegant-icons-style.css')}}" rel="stylesheet" />
-    <link href="{{asset('../resources/assets/niceadmin/css/font-awesome.min.css')}}" rel="stylesheet" />
+    <link href="{{asset('/resources/assets/niceadmin/css/elegant-icons-style.css')}}" rel="stylesheet" />
+    <link href="{{asset('/resources/assets/niceadmin/css/font-awesome.min.css')}}" rel="stylesheet" />
     <!-- Custom styles -->
-    <link href="{{asset('../resources/assets/niceadmin/css/style.css')}}" rel="stylesheet">
-    <link href="{{asset('../resources/assets/niceadmin/css/style-responsive.css')}}" rel="stylesheet" />
+    <link href="{{asset('/resources/assets/niceadmin/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('/resources/assets/niceadmin/css/style-responsive.css')}}" rel="stylesheet" />
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
     <!--[if lt IE 9]>
-      <script src="{{asset('../resources/assets/niceadmin/js/html5shiv.js')}}"></script>
-      <script src="{{asset('../resources/assets/niceadmin/js/respond.min.js')}}"></script>
-      <script src="{{asset('../resources/assets/niceadmin/js/lte-ie7.js')}}"></script>
+      <script src="{{asset('/resources/assets/niceadmin/js/html5shiv.js')}}"></script>
+      <script src="{{asset('/resources/assets/niceadmin/js/respond.min.js')}}"></script>
+      <script src="{{asset('/resources/assets/niceadmin/js/lte-ie7.js')}}"></script>
     <![endif]-->
   </head>
 
@@ -157,7 +157,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="photo"><img alt="avatar" src="{{asset('../resources/assets/niceadmin/img/avatar-mini.jpg')}}"></span>
+                                    <span class="photo"><img alt="avatar" src="{{asset('/resources/assets/niceadmin/img/avatar-mini.jpg')}}"></span>
                                     <span class="subject">
                                     <span class="from">Greg  Martin</span>
                                     <span class="time">1 min</span>
@@ -169,7 +169,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="photo"><img alt="avatar" src="{{asset('../resources/assets/niceadmin/img/avatar-mini2.jpg')}}"></span>
+                                    <span class="photo"><img alt="avatar" src="{{asset('/resources/assets/niceadmin/img/avatar-mini2.jpg')}}"></span>
                                     <span class="subject">
                                     <span class="from">Bob   Mckenzie</span>
                                     <span class="time">5 mins</span>
@@ -181,7 +181,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="photo"><img alt="avatar" src="{{asset('../resources/assets/niceadmin/img/avatar-mini3.jpg')}}"></span>
+                                    <span class="photo"><img alt="avatar" src="{{asset('/resources/assets/niceadmin/img/avatar-mini3.jpg')}}"></span>
                                     <span class="subject">
                                     <span class="from">Phillip   Park</span>
                                     <span class="time">2 hrs</span>
@@ -193,7 +193,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="photo"><img alt="avatar" src="{{asset('../resources/assets/niceadmin/img/avatar-mini4.jpg')}}"></span>
+                                    <span class="photo"><img alt="avatar" src="{{asset('/resources/assets/niceadmin/img/avatar-mini4.jpg')}}"></span>
                                     <span class="subject">
                                     <span class="from">Ray   Munoz</span>
                                     <span class="time">1 day</span>
@@ -259,7 +259,7 @@
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="profile-ava">
-                                <img alt="" src="{{asset('../resources/assets/niceadmin/img/avatar1_small.jpg')}}">
+                                <img alt="" src="{{asset('/resources/assets/niceadmin/img/avatar1_small.jpg')}}">
                             </span>
                             <span class="username">Jenifer Smith</span>
                             <b class="caret"></b>
@@ -462,15 +462,15 @@
   <!-- container section end -->
 
     <!-- javascripts -->
-    <script src="{{asset('../resources/assets/niceadmin/js/jquery.js')}}"></script>
-    <script src="{{asset('../resources/assets/niceadmin/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('/resources/assets/niceadmin/js/jquery.js')}}"></script>
+    <script src="{{asset('/resources/assets/niceadmin/js/bootstrap.min.js')}}"></script>
     <!-- nice scroll -->
-    <script src="{{asset('../resources/assets/niceadmin/js/jquery.scrollTo.min.js')}}"></script>
-    <script src="{{asset('../resources/assets/niceadmin/js/jquery.nicescroll.js')}}" type="text/javascript"></script>
+    <script src="{{asset('/resources/assets/niceadmin/js/jquery.scrollTo.min.js')}}"></script>
+    <script src="{{asset('/resources/assets/niceadmin/js/jquery.nicescroll.js')}}" type="text/javascript"></script>
     <!-- jquery knob -->
-    <script src="{{asset('../resources/assets/niceadmin/assets/jquery-knob/js/jquery.knob.js')}}"></script>
+    <script src="{{asset('/resources/assets/niceadmin/assets/jquery-knob/js/jquery.knob.js')}}"></script>
     <!--custome script for all page-->
-    <script src="{{asset('../resources/assets/niceadmin/js/scripts.js')}}"></script>
+    <script src="{{asset('/resources/assets/niceadmin/js/scripts.js')}}"></script>
 
   <script>
 

@@ -6,22 +6,22 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Cart | E-Shopper</title>
-    <link href="{{asset('../resources/assets/eshopper/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('../resources/assets/eshopper/css/font-awesome.min.css')}}" rel="stylesheet">
-    <link href="{{asset('../resources/assets/eshopper/css/prettyPhoto.css')}}" rel="stylesheet">
-    <link href="{{asset('../resources/assets/eshopper/css/price-range.css')}}" rel="stylesheet">
-    <link href="{{asset('../resources/assets/eshopper/css/animate.css')}}" rel="stylesheet">
-	<link href="{{asset('../resources/assets/eshopper/css/main.css')}}" rel="stylesheet">
-	<link href="{{asset('../resources/assets/eshopper/css/responsive.css')}}" rel="stylesheet">
+    <link href="{{asset('/resources/assets/eshopper/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/resources/assets/eshopper/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/resources/assets/eshopper/css/prettyPhoto.css')}}" rel="stylesheet">
+    <link href="{{asset('/resources/assets/eshopper/css/price-range.css')}}" rel="stylesheet">
+    <link href="{{asset('/resources/assets/eshopper/css/animate.css')}}" rel="stylesheet">
+	<link href="{{asset('/resources/assets/eshopper/css/main.css')}}" rel="stylesheet">
+	<link href="{{asset('/resources/assets/eshopper/css/responsive.css')}}" rel="stylesheet">
     <!--[if lt IE 9]>
     <script seshopper></script>
     <script seshopper></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="{{asset('../resources/assets/eshopper/images/ico/favicon.ico')}}">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset('../resources/assets/eshopper/images/ico/apple-touch-icon-144-precomposed.png')}}">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{asset('../resources/assets/eshopper/images/ico/apple-touch-icon-114-precomposed.png')}}">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{asset('../resources/assets/eshopper/images/ico/apple-touch-icon-72-precomposed.png')}}">
-    <link rel="apple-touch-icon-precomposed" href="{{asset('../resources/assets/eshopper/images/ico/apple-touch-icon-57-precomposed.png')}}">
+    <link rel="shortcut icon" href="{{asset('/resources/assets/eshopper/images/ico/favicon.ico')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset('/resources/assets/eshopper/images/ico/apple-touch-icon-144-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{asset('/resources/assets/eshopper/images/ico/apple-touch-icon-114-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{asset('/resources/assets/eshopper/images/ico/apple-touch-icon-72-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" href="{{asset('/resources/assets/eshopper/images/ico/apple-touch-icon-57-precomposed.png')}}">
 </head><!--/head-->
 
 <body>
@@ -57,7 +57,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="logo pull-left">
-							<a href="{{action('Frontend\FrontendController@index')}}"><img src="{{asset('../resources/assets/eshopper/images/home/logo.png')}}" alt="" /></a>
+							<a href="{{action('Frontend\FrontendController@index')}}"><img src="{{asset('/resources/assets/eshopper/images/home/logo.png')}}" alt="" /></a>
 						</div>
 						<div class="btn-group pull-right">
 							<div class="btn-group">
@@ -166,7 +166,7 @@
 					<tbody>
 						<tr>
 							<td class="cart_product">
-								<a href=""><img src="{{asset('../resources/assets/eshopper/images/cart/one.png')}}" alt=""></a>
+								<a href=""><img src="{{asset('/resources/assets/eshopper/images/cart/one.png')}}" alt=""></a>
 							</td>
 							<td class="cart_description">
 								<h4><a href="">Colorblock Scuba</a></h4>
@@ -192,7 +192,7 @@
 
 						<tr>
 							<td class="cart_product">
-								<a href=""><img src="{{asset('../resources/assets/eshopper/images/cart/two.png')}}" alt=""></a>
+								<a href=""><img src="{{asset('/resources/assets/eshopper/images/cart/two.png')}}" alt=""></a>
 							</td>
 							<td class="cart_description">
 								<h4><a href="">Colorblock Scuba</a></h4>
@@ -217,7 +217,7 @@
 						</tr>
 						<tr>
 							<td class="cart_product">
-								<a href=""><img src="{{asset('../resources/assets/eshopper/images/cart/three.png')}}" alt=""></a>
+								<a href=""><img src="{{asset('/resources/assets/eshopper/images/cart/three.png')}}" alt=""></a>
 							</td>
 							<td class="cart_description">
 								<h4><a href="">Colorblock Scuba</a></h4>
@@ -338,7 +338,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{asset('../resources/assets/eshopper/images/home/iframe1.png')}}" alt="" />
+										<img src="{{asset('/resources/assets/eshopper/images/home/iframe1.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -353,7 +353,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{asset('../resources/assets/eshopper/images/home/iframe2.png')}}" alt="" />
+										<img src="{{asset('/resources/assets/eshopper/images/home/iframe2.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -368,7 +368,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{asset('../resources/assets/eshopper/images/home/iframe3.png')}}" alt="" />
+										<img src="{{asset('/resources/assets/eshopper/images/home/iframe3.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -383,7 +383,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{asset('../resources/assets/eshopper/images/home/iframe4.png')}}" alt="" />
+										<img src="{{asset('/resources/assets/eshopper/images/home/iframe4.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -396,7 +396,7 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="address">
-							<img src="{{asset('../resources/assets/eshopper/images/home/map.png')}}" alt="" />
+							<img src="{{asset('/resources/assets/eshopper/images/home/map.png')}}" alt="" />
 							<p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
 						</div>
 					</div>
@@ -483,10 +483,10 @@
 	
 
 
-    <script src="{{asset('../resources/assets/eshopper/js/jquery.js')}}"></script>
-	<script src="{{asset('../resources/assets/eshopper/js/bootstrap.min.js')}}"></script>
-	<script src="{{asset('../resources/assets/eshopper/js/jquery.scrollUp.min.js')}}"></script>
-    <script src="{{asset('../resources/assets/eshopper/js/jquery.prettyPhoto.js')}}"></script>
-    <script src="{{asset('../resources/assets/eshopper/js/main.js')}}"></script>
+    <script src="{{asset('/resources/assets/eshopper/js/jquery.js')}}"></script>
+	<script src="{{asset('/resources/assets/eshopper/js/bootstrap.min.js')}}"></script>
+	<script src="{{asset('/resources/assets/eshopper/js/jquery.scrollUp.min.js')}}"></script>
+    <script src="{{asset('/resources/assets/eshopper/js/jquery.prettyPhoto.js')}}"></script>
+    <script src="{{asset('/resources/assets/eshopper/js/main.js')}}"></script>
 </body>
 </html>

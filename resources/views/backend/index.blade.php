@@ -6,33 +6,33 @@
     <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
     <meta name="author" content="GeeksLabs">
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
-    <link rel="shortcut icon" href="{{asset('../resources/assets/niceadmin/img/favicon.png')}}">
+    <link rel="shortcut icon" href="{{asset('/resources/assets/niceadmin/img/favicon.png')}}">
 
     <title>Creative - Bootstrap Admin Template</title>
 
     <!-- Bootstrap CSS -->    
-    <link href="{{asset('../resources/assets/niceadmin/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/resources/assets/niceadmin/css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- bootstrap theme -->
-    <link href="{{asset('../resources/assets/niceadmin/css/bootstrap-theme.css')}}" rel="stylesheet">
+    <link href="{{asset('/resources/assets/niceadmin/css/bootstrap-theme.css')}}" rel="stylesheet">
     <!--external css-->
     <!-- font icon -->
-    <link href="{{asset('../resources/assets/niceadmin/css/elegant-icons-style.css')}}" rel="stylesheet" />
-    <link href="{{asset('../resources/assets/niceadmin/css/font-awesome.min.css')}}" rel="stylesheet" />
+    <link href="{{asset('/resources/assets/niceadmin/css/elegant-icons-style.css')}}" rel="stylesheet" />
+    <link href="{{asset('/resources/assets/niceadmin/css/font-awesome.min.css')}}" rel="stylesheet" />
     <!-- full calendar css-->
-    <link href="{{asset('../resources/assets/niceadmin/assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css')}}" rel="stylesheet" />
-	<link href="{{asset('../resources/assets/niceadmin/assets/fullcalendar/fullcalendar/fullcalendar.css')}}" rel="stylesheet" />
+    <link href="{{asset('/resources/assets/niceadmin/assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css')}}" rel="stylesheet" />
+	<link href="{{asset('/resources/assets/niceadmin/assets/fullcalendar/fullcalendar/fullcalendar.css')}}" rel="stylesheet" />
     <!-- easy pie chart-->
-    <link href="{{asset('../resources/assets/niceadmin/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css')}}" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="{{asset('/resources/assets/niceadmin/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css')}}" rel="stylesheet" type="text/css" media="screen"/>
     <!-- owl carousel -->
-    <link rel="stylesheet" href="{{asset('../resources/assets/niceadmin/css/owl.carousel.css')}}" type="text/css">
-	<link href="{{asset('../resources/assets/niceadmin/css/jquery-jvectormap-1.2.2.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('/resources/assets/niceadmin/css/owl.carousel.css')}}" type="text/css">
+	<link href="{{asset('/resources/assets/niceadmin/css/jquery-jvectormap-1.2.2.css')}}" rel="stylesheet">
     <!-- Custom styles -->
-	<link rel="stylesheet" href="{{asset('../resources/assets/niceadmin/css/fullcalendar.css')}}">
-	<link href="{{asset('../resources/assets/niceadmin/css/widgets.css')}}" rel="stylesheet">
-    <link href="{{asset('../resources/assets/niceadmin/css/style.css')}}" rel="stylesheet">
-    <link href="{{asset('../resources/assets/niceadmin/css/style-responsive.css')}}" rel="stylesheet" />
-	<link href="{{asset('../resources/assets/niceadmin/css/xcharts.min.css')}}" rel=" stylesheet">
-	<link href="{{asset('../resources/assets/niceadmin/css/jquery-ui-1.10.4.min.css')}}" rel="stylesheet">
+	<link rel="stylesheet" href="{{asset('/resources/assets/niceadmin/css/fullcalendar.css')}}">
+	<link href="{{asset('/resources/assets/niceadmin/css/widgets.css')}}" rel="stylesheet">
+    <link href="{{asset('/resources/assets/niceadmin/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('/resources/assets/niceadmin/css/style-responsive.css')}}" rel="stylesheet" />
+	<link href="{{asset('/resources/assets/niceadmin/css/xcharts.min.css')}}" rel=" stylesheet">
+	<link href="{{asset('/resources/assets/niceadmin/css/jquery-ui-1.10.4.min.css')}}" rel="stylesheet">
     <!-- =======================================================
         Theme Name: NiceAdmin
         Theme URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
@@ -169,7 +169,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="photo"><img alt="avatar" src="{{asset('../resources/assets/niceadmin/img/avatar-mini.jpg')}}"></span>
+                                    <span class="photo"><img alt="avatar" src="{{asset('/resources/assets/niceadmin/img/avatar-mini.jpg')}}"></span>
                                     <span class="subject">
                                     <span class="from">Greg  Martin</span>
                                     <span class="time">1 min</span>
@@ -181,7 +181,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="photo"><img alt="avatar" src="{{asset('../resources/assets/niceadmin/img/avatar-mini2.jpg')}}"></span>
+                                    <span class="photo"><img alt="avatar" src="{{asset('/resources/assets/niceadmin/img/avatar-mini2.jpg')}}"></span>
                                     <span class="subject">
                                     <span class="from">Bob   Mckenzie</span>
                                     <span class="time">5 mins</span>
@@ -193,7 +193,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="photo"><img alt="avatar" src="{{asset('../resources/assets/niceadmin/img/avatar-mini3.jpg')}}"></span>
+                                    <span class="photo"><img alt="avatar" src="{{asset('/resources/assets/niceadmin/img/avatar-mini3.jpg')}}"></span>
                                     <span class="subject">
                                     <span class="from">Phillip   Park</span>
                                     <span class="time">2 hrs</span>
@@ -205,7 +205,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="photo"><img alt="avatar" src="{{asset('../resources/assets/niceadmin/img/avatar-mini4.jpg')}}"></span>
+                                    <span class="photo"><img alt="avatar" src="{{asset('/resources/assets/niceadmin/img/avatar-mini4.jpg')}}"></span>
                                     <span class="subject">
                                     <span class="from">Ray   Munoz</span>
                                     <span class="time">1 day</span>
@@ -271,7 +271,7 @@
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="profile-ava">
-                                <img alt="" src="{{asset('../resources/assets/niceadmin/img/avatar1_small.jpg')}}">
+                                <img alt="" src="{{asset('/resources/assets/niceadmin/img/avatar1_small.jpg')}}">
                             </span>
                             <span class="username">Phongvt</span>
                             <b class="caret"></b>
@@ -518,7 +518,7 @@
 								</thead>   
 								<tbody>
 									<tr>
-										<td><img src="{{asset('../resources/assets/niceadmin/img/Germany.png')}}" style="height:18px; margin-top:-2px;"></td>
+										<td><img src="{{asset('/resources/assets/niceadmin/img/Germany.png')}}" style="height:18px; margin-top:-2px;"></td>
 										<td>Germany</td>
 										<td>2563</td>
 										<td>1025</td>
@@ -533,7 +533,7 @@
 										</td>
 									</tr>
 									<tr>
-										<td><img src="{{asset('../resources/assets/niceadmin/img/India.png')}}" style="height:18px; margin-top:-2px;"></td>
+										<td><img src="{{asset('/resources/assets/niceadmin/img/India.png')}}" style="height:18px; margin-top:-2px;"></td>
 										<td>India</td>
 										<td>3652</td>
 										<td>2563</td>
@@ -548,7 +548,7 @@
 										</td>
 									</tr>
 									<tr>
-										<td><img src="{{asset('../resources/assets/niceadmin/img/Spain.png')}}" style="height:18px; margin-top:-2px;"></td>
+										<td><img src="{{asset('/resources/assets/niceadmin/img/Spain.png')}}" style="height:18px; margin-top:-2px;"></td>
 										<td>Spain</td>
 										<td>562</td>
 										<td>452</td>
@@ -563,7 +563,7 @@
 										</td>
 									</tr>
 									<tr>
-										<td><img src="{{asset('../resources/assets/niceadmin/img/India.png')}}" style="height:18px; margin-top:-2px;"></td>
+										<td><img src="{{asset('/resources/assets/niceadmin/img/India.png')}}" style="height:18px; margin-top:-2px;"></td>
 										<td>Russia</td>
 										<td>1258</td>
 										<td>958</td>
@@ -578,7 +578,7 @@
 										</td>
 									</tr>
 									<tr>
-										<td><img src="{{asset('../resources/assets/niceadmin/img/Spain.png')}}" style="height:18px; margin-top:-2px;"></td>
+										<td><img src="{{asset('/resources/assets/niceadmin/img/Spain.png')}}" style="height:18px; margin-top:-2px;"></td>
 										<td>USA</td>
 										<td>4856</td>
 										<td>3621</td>
@@ -593,7 +593,7 @@
 										</td>
 									</tr>
 									<tr>
-										<td><img src="{{asset('../resources/assets/niceadmin/img/Germany.png')}}" style="height:18px; margin-top:-2px;"></td>
+										<td><img src="{{asset('/resources/assets/niceadmin/img/Germany.png')}}" style="height:18px; margin-top:-2px;"></td>
 										<td>Brazil</td>
 										<td>265</td>
 										<td>102</td>
@@ -608,7 +608,7 @@
 										</td>
 									</tr>
 									<tr>
-										<td><img src="{{asset('../resources/assets/niceadmin/img/Germany.png')}}" style="height:18px; margin-top:-2px;"></td>
+										<td><img src="{{asset('/resources/assets/niceadmin/img/Germany.png')}}" style="height:18px; margin-top:-2px;"></td>
 										<td>Coloumbia</td>
 										<td>265</td>
 										<td>102</td>
@@ -623,7 +623,7 @@
 										</td>
 									</tr>
 									<tr>
-										<td><img src="{{asset('../resources/assets/niceadmin/img/Germany.png')}}" style="height:18px; margin-top:-2px;"></td>
+										<td><img src="{{asset('/resources/assets/niceadmin/img/Germany.png')}}" style="height:18px; margin-top:-2px;"></td>
 										<td>France</td>
 										<td>265</td>
 										<td>102</td>
@@ -728,7 +728,7 @@
                       <li class="by-me">
                         <!-- Use the class "pull-left" in avatar -->
                         <div class="avatar pull-left">
-                          <img src="{{asset('../resources/assets/niceadmin/img/user.jpg')}}" alt=""/>
+                          <img src="{{asset('/resources/assets/niceadmin/img/user.jpg')}}" alt=""/>
                         </div>
 
                         <div class="chat-content">
@@ -743,7 +743,7 @@
                       <li class="by-other">
                         <!-- Use the class "pull-right" in avatar -->
                         <div class="avatar pull-right">
-                          <img src="{{asset('../resources/assets/niceadmin/img/user22.png')}}" alt=""/>
+                          <img src="{{asset('/resources/assets/niceadmin/img/user22.png')}}" alt=""/>
                         </div>
 
                         <div class="chat-content">
@@ -756,7 +756,7 @@
 
                       <li class="by-me">
                         <div class="avatar pull-left">
-                          <img src="{{asset('../resources/assets/niceadmin/img/user.jpg')}}" alt=""/>
+                          <img src="{{asset('/resources/assets/niceadmin/img/user.jpg')}}" alt=""/>
                         </div>
 
                         <div class="chat-content">
@@ -769,7 +769,7 @@
                       <li class="by-other">
                         <!-- Use the class "pull-right" in avatar -->
                         <div class="avatar pull-right">
-                          <img src="{{asset('../resources/assets/niceadmin/img/user22.png')}}" alt=""/>
+                          <img src="{{asset('/resources/assets/niceadmin/img/user22.png')}}" alt=""/>
                         </div>
 
                         <div class="chat-content">
@@ -811,7 +811,7 @@
                               </div>
                               <div class="col-lg-4">
                                 <span class="profile-ava pull-right">
-                                        <img alt="" class="simple" src="{{asset('../resources/assets/niceadmin/img/avatar1_small.jpg')}}">
+                                        <img alt="" class="simple" src="{{asset('/resources/assets/niceadmin/img/avatar1_small.jpg')}}">
                                         Phongvt
                                 </span>                                
                               </div>
@@ -829,7 +829,7 @@
                                   </td>
                                   <td>
                                     <span class="profile-ava">
-                                        <img alt="" class="simple" src="{{asset('../resources/assets/niceadmin/img/avatar1_small.jpg')}}">
+                                        <img alt="" class="simple" src="{{asset('/resources/assets/niceadmin/img/avatar1_small.jpg')}}">
                                     </span>
                                   </td>
                               </tr>
@@ -867,7 +867,7 @@
                                   </td>
                                   <td>
                                       <span class="profile-ava">
-                                        <img alt="" class="simple" src="{{asset('../resources/assets/niceadmin/img/avatar1_small.jpg')}}">
+                                        <img alt="" class="simple" src="{{asset('/resources/assets/niceadmin/img/avatar1_small.jpg')}}">
                                       </span>
                                   </td>
                               </tr>
@@ -917,7 +917,7 @@
                                   </td>
                                   <td>
                                       <span class="profile-ava">
-                                        <img alt="" class="simple" src="{{asset('../resources/assets/niceadmin/img/avatar1_small.jpg')}}">
+                                        <img alt="" class="simple" src="{{asset('/resources/assets/niceadmin/img/avatar1_small.jpg')}}">
                                       </span>
                                   </td>
                               </tr>
@@ -1044,45 +1044,45 @@
   <!-- container section start -->
 
     <!-- javascripts -->
-    <script src="{{asset('../resources/assets/niceadmin/js/jquery.js')}}"></script>
-	<script src="{{asset('../resources/assets/niceadmin/js/jquery-ui-1.10.4.min.js')}}"></script>
-    <script src="{{asset('../resources/assets/niceadmin/js/jquery-1.8.3.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('../resources/assets/niceadmin/js/jquery-ui-1.9.2.custom.min.js')}}"></script>
+    <script src="{{asset('/resources/assets/niceadmin/js/jquery.js')}}"></script>
+	<script src="{{asset('/resources/assets/niceadmin/js/jquery-ui-1.10.4.min.js')}}"></script>
+    <script src="{{asset('/resources/assets/niceadmin/js/jquery-1.8.3.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('/resources/assets/niceadmin/js/jquery-ui-1.9.2.custom.min.js')}}"></script>
     <!-- bootstrap -->
-    <script src="{{asset('../resources/assets/niceadmin/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('/resources/assets/niceadmin/js/bootstrap.min.js')}}"></script>
     <!-- nice scroll -->
-    <script src="{{asset('../resources/assets/niceadmin/js/jquery.scrollTo.min.js')}}"></script>
-    <script src="{{asset('../resources/assets/niceadmin/js/jquery.nicescroll.js')}}" type="text/javascript"></script>
+    <script src="{{asset('/resources/assets/niceadmin/js/jquery.scrollTo.min.js')}}"></script>
+    <script src="{{asset('/resources/assets/niceadmin/js/jquery.nicescroll.js')}}" type="text/javascript"></script>
     <!-- charts scripts -->
-    <script src="{{asset('../resources/assets/niceadmin/assets/jquery-knob/js/jquery.knob.js')}}"></script>
-    <script src="{{asset('../resources/assets/niceadmin/js/jquery.sparkline.js')}}" type="text/javascript"></script>
-    <script src="{{asset('../resources/assets/niceadmin/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js')}}"></script>
-    <script src="{{asset('../resources/assets/niceadmin/js/owl.carousel.js')}}" ></script>
+    <script src="{{asset('/resources/assets/niceadmin/assets/jquery-knob/js/jquery.knob.js')}}"></script>
+    <script src="{{asset('/resources/assets/niceadmin/js/jquery.sparkline.js')}}" type="text/javascript"></script>
+    <script src="{{asset('/resources/assets/niceadmin/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js')}}"></script>
+    <script src="{{asset('/resources/assets/niceadmin/js/owl.carousel.js')}}" ></script>
     <!-- jQuery full calendar -->
-    <<script src="{{asset('../resources/assets/niceadmin/js/fullcalendar.min.js')}}"></script> <!-- Full Google Calendar - Calendar -->
-	<script src="{{asset('../resources/assets/niceadmin/assets/fullcalendar/fullcalendar/fullcalendar.js')}}"></script>
+    <<script src="{{asset('/resources/assets/niceadmin/js/fullcalendar.min.js')}}"></script> <!-- Full Google Calendar - Calendar -->
+	<script src="{{asset('/resources/assets/niceadmin/assets/fullcalendar/fullcalendar/fullcalendar.js')}}"></script>
     <!--script for this page only-->
-    <script src="{{asset('../resources/assets/niceadmin/js/calendar-custom.js')}}"></script>
-	<script src="{{asset('../resources/assets/niceadmin/js/jquery.rateit.min.js')}}"></script>
+    <script src="{{asset('/resources/assets/niceadmin/js/calendar-custom.js')}}"></script>
+	<script src="{{asset('/resources/assets/niceadmin/js/jquery.rateit.min.js')}}"></script>
     <!-- custom select -->
-    <script src="{{asset('../resources/assets/niceadmin/js/jquery.customSelect.min.js')}}" ></script>
-	<script src="{{asset('../resources/assets/niceadmin/assets/chart-master/Chart.js')}}"></script>
+    <script src="{{asset('/resources/assets/niceadmin/js/jquery.customSelect.min.js')}}" ></script>
+	<script src="{{asset('/resources/assets/niceadmin/assets/chart-master/Chart.js')}}"></script>
    
     <!--custome script for all page-->
-    <script src="{{asset('../resources/assets/niceadmin/js/scripts.js')}}"></script>
+    <script src="{{asset('/resources/assets/niceadmin/js/scripts.js')}}"></script>
     <!-- custom script for this page-->
-    <script src="{{asset('../resources/assets/niceadmin/js/sparkline-chart.js')}}"></script>
-    <script src="{{asset('../resources/assets/niceadmin/js/easy-pie-chart.js')}}"></script>
-	<script src="{{asset('../resources/assets/niceadmin/js/jquery-jvectormap-1.2.2.min.js')}}"></script>
-	<script src="{{asset('../resources/assets/niceadmin/js/jquery-jvectormap-world-mill-en.js')}}"></script>
-	<script src="{{asset('../resources/assets/niceadmin/js/xcharts.min.js')}}"></script>
-	<script src="{{asset('../resources/assets/niceadmin/js/jquery.autosize.min.js')}}"></script>
-	<script src="{{asset('../resources/assets/niceadmin/js/jquery.placeholder.min.js')}}"></script>
-	<script src="{{asset('../resources/assets/niceadmin/js/gdp-data.js')}}"></script>
-	<script src="{{asset('../resources/assets/niceadmin/js/morris.min.js')}}"></script>
-	<script src="{{asset('../resources/assets/niceadmin/js/sparklines.js')}}"></script>
-	<script src="{{asset('../resources/assets/niceadmin/js/charts.js')}}"></script>
-	<script src="{{asset('../resources/assets/niceadmin/js/jquery.slimscroll.min.js')}}"></script>
+    <script src="{{asset('/resources/assets/niceadmin/js/sparkline-chart.js')}}"></script>
+    <script src="{{asset('/resources/assets/niceadmin/js/easy-pie-chart.js')}}"></script>
+	<script src="{{asset('/resources/assets/niceadmin/js/jquery-jvectormap-1.2.2.min.js')}}"></script>
+	<script src="{{asset('/resources/assets/niceadmin/js/jquery-jvectormap-world-mill-en.js')}}"></script>
+	<script src="{{asset('/resources/assets/niceadmin/js/xcharts.min.js')}}"></script>
+	<script src="{{asset('/resources/assets/niceadmin/js/jquery.autosize.min.js')}}"></script>
+	<script src="{{asset('/resources/assets/niceadmin/js/jquery.placeholder.min.js')}}"></script>
+	<script src="{{asset('/resources/assets/niceadmin/js/gdp-data.js')}}"></script>
+	<script src="{{asset('/resources/assets/niceadmin/js/morris.min.js')}}"></script>
+	<script src="{{asset('/resources/assets/niceadmin/js/sparklines.js')}}"></script>
+	<script src="{{asset('/resources/assets/niceadmin/js/charts.js')}}"></script>
+	<script src="{{asset('/resources/assets/niceadmin/js/jquery.slimscroll.min.js')}}"></script>
   <script>
 
       //knob
