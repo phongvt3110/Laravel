@@ -11,6 +11,8 @@
 |
 */
 
+use Illuminate\Support\Facades\Route;
+
 Route::get('/welcome', function () {
 //    $data = ['name' => Auth::user()->getAuthIdentifier()];
 //    return view('home',['data' => isset($data) ? $data : null]);
