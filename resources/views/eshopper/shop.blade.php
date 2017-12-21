@@ -6,22 +6,22 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Shop | E-Shopper</title>
-    <link href="{{asset('/resources/assets/eshopper/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('/resources/assets/eshopper/css/font-awesome.min.css')}}" rel="stylesheet">
-    <link href="{{asset('/resources/assets/eshopper/css/prettyPhoto.css')}}" rel="stylesheet">
-    <link href="{{asset('/resources/assets/eshopper/css/price-range.css')}}" rel="stylesheet">
-    <link href="{{asset('/resources/assets/eshopper/css/animate.css')}}" rel="stylesheet">
-	<link href="{{asset('/resources/assets/eshopper/css/main.css')}}" rel="stylesheet">
-	<link href="{{asset('/resources/assets/eshopper/css/responsive.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/eshopper/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/eshopper/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/eshopper/css/prettyPhoto.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/eshopper/css/price-range.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/eshopper/css/animate.css')}}" rel="stylesheet">
+	<link href="{{asset('assets/eshopper/css/main.css')}}" rel="stylesheet">
+	<link href="{{asset('assets/eshopper/css/responsive.css')}}" rel="stylesheet">
     <!--[if lt IE 9]>
     <script seshopper></script>
     <script seshopper></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="{{asset('/resources/assets/eshopper/images/ico/favicon.ico')}}">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset('/resources/assets/eshopper/images/ico/apple-touch-icon-144-precomposed.png')}}">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{asset('/resources/assets/eshopper/images/ico/apple-touch-icon-114-precomposed.png')}}">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{asset('/resources/assets/eshopper/images/ico/apple-touch-icon-72-precomposed.png')}}">
-    <link rel="apple-touch-icon-precomposed" href="{{asset('/resources/assets/eshopper/images/ico/apple-touch-icon-57-precomposed.png')}}">
+    <link rel="shortcut icon" href="{{asset('assets/eshopper/images/ico/favicon.ico')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset('assets/eshopper/images/ico/apple-touch-icon-144-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{asset('assets/eshopper/images/ico/apple-touch-icon-114-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{asset('assets/eshopper/images/ico/apple-touch-icon-72-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" href="{{asset('assets/eshopper/images/ico/apple-touch-icon-57-precomposed.png')}}">
 </head><!--/head-->
 
 <body>
@@ -57,7 +57,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="logo pull-left">
-							<a href="{{action('Frontend\FrontendController@index')}}"><img src="{{asset('/resources/assets/eshopper/images/home/logo.png')}}" alt="" /></a>
+							<a href="{{action('Frontend\FrontendController@index')}}"><img src="{{asset('assets/eshopper/images/home/logo.png')}}" alt="" /></a>
 						</div>
 						<div class="btn-group pull-right">
 							<div class="btn-group">
@@ -145,7 +145,7 @@
 	
 	<section id="advertisement">
 		<div class="container">
-			<img src="{{asset('/resources/assets/eshopper/images/shop/advertisement.jpg')}}" alt="" />
+			<img src="{{asset('assets/eshopper/images/shop/advertisement.jpg')}}" alt="" />
 		</div>
 	</section>
 	
@@ -286,7 +286,7 @@
 						</div><!--/price-range-->
 						
 						<div class="shipping text-center"><!--shipping-->
-							<img src="{{asset('/resources/assets/eshopper/images/home/shipping.jpg')}}" alt="" />
+							<img src="{{asset('assets/eshopper/images/home/shipping.jpg')}}" alt="" />
 						</div><!--/shipping-->
 						
 					</div>
@@ -299,7 +299,7 @@
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center">
-										<img src="{{asset('/resources/assets/eshopper/images/shop/product12.jpg')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/shop/product12.jpg')}}" alt="" />
 										<h2>$56</h2>
 										<p>Easy Polo Black Edition</p>
 										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -324,7 +324,7 @@
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center">
-										<img src="{{asset('/resources/assets/eshopper/images/shop/product11.jpg')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/shop/product11.jpg')}}" alt="" />
 										<h2>$56</h2>
 										<p>Easy Polo Black Edition</p>
 										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -349,7 +349,7 @@
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center">
-										<img src="{{asset('/resources/assets/eshopper/images/shop/product10.jpg')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/shop/product10.jpg')}}" alt="" />
 										<h2>$56</h2>
 										<p>Easy Polo Black Edition</p>
 										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -374,7 +374,7 @@
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center">
-										<img src="{{asset('/resources/assets/eshopper/images/shop/product9.jpg')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/shop/product9.jpg')}}" alt="" />
 										<h2>$56</h2>
 										<p>Easy Polo Black Edition</p>
 										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -386,7 +386,7 @@
 											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 										</div>
 									</div>
-									<img src="{{asset('/resources/assets/eshopper/images/home/new.png')}}" class="new" alt="" />
+									<img src="{{asset('assets/eshopper/images/home/new.png')}}" class="new" alt="" />
 								</div>
 								<div class="choose">
 									<ul class="nav nav-pills nav-justified">
@@ -400,7 +400,7 @@
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center">
-										<img src="{{asset('/resources/assets/eshopper/images/shop/product8.jpg')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/shop/product8.jpg')}}" alt="" />
 										<h2>$56</h2>
 										<p>Easy Polo Black Edition</p>
 										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -412,7 +412,7 @@
 											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 										</div>
 									</div>
-									<img src="{{asset('/resources/assets/eshopper/images/home/sale.png')}}" class="new" alt="" />
+									<img src="{{asset('assets/eshopper/images/home/sale.png')}}" class="new" alt="" />
 								</div>
 								<div class="choose">
 									<ul class="nav nav-pills nav-justified">
@@ -426,33 +426,7 @@
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center">
-										<img src="{{asset('/resources/assets/eshopper/images/shop/product7.jpg')}}" alt="" />
-										<h2>$56</h2>
-										<p>Easy Polo Black Edition</p>
-										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<h2>$56</h2>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-										<li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="{{asset('/resources/assets/eshopper/images/home/product6.jpg')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/shop/product7.jpg')}}" alt="" />
 										<h2>$56</h2>
 										<p>Easy Polo Black Edition</p>
 										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -478,7 +452,7 @@
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center">
-										<img src="{{asset('/resources/assets/eshopper/images/home/product5.jpg')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/home/product6.jpg')}}" alt="" />
 										<h2>$56</h2>
 										<p>Easy Polo Black Edition</p>
 										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -504,7 +478,7 @@
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center">
-										<img src="{{asset('/resources/assets/eshopper/images/home/product4.jpg')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/home/product5.jpg')}}" alt="" />
 										<h2>$56</h2>
 										<p>Easy Polo Black Edition</p>
 										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -530,7 +504,33 @@
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center">
-										<img src="{{asset('/resources/assets/eshopper/images/home/product3.jpg')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/home/product4.jpg')}}" alt="" />
+										<h2>$56</h2>
+										<p>Easy Polo Black Edition</p>
+										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+									</div>
+									<div class="product-overlay">
+										<div class="overlay-content">
+											<h2>$56</h2>
+											<p>Easy Polo Black Edition</p>
+											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+										</div>
+									</div>
+								</div>
+								<div class="choose">
+									<ul class="nav nav-pills nav-justified">
+										<li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
+										<li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-sm-4">
+							<div class="product-image-wrapper">
+								<div class="single-products">
+									<div class="productinfo text-center">
+										<img src="{{asset('assets/eshopper/images/home/product3.jpg')}}" alt="" />
 										<h2>$56</h2>
 										<p>Easy Polo Black Edition</p>
 										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -557,7 +557,7 @@
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center">
-										<img src="{{asset('/resources/assets/eshopper/images/home/product2.jpg')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/home/product2.jpg')}}" alt="" />
 										<h2>$56</h2>
 										<p>Easy Polo Black Edition</p>
 										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -583,7 +583,7 @@
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center">
-										<img src="{{asset('/resources/assets/eshopper/images/home/product1.jpg')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/home/product1.jpg')}}" alt="" />
 										<h2>$56</h2>
 										<p>Easy Polo Black Edition</p>
 										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -632,7 +632,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{asset('/resources/assets/eshopper/images/home/iframe1.png')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/home/iframe1.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -647,7 +647,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{asset('/resources/assets/eshopper/images/home/iframe2.png')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/home/iframe2.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -662,7 +662,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{asset('/resources/assets/eshopper/images/home/iframe3.png')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/home/iframe3.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -677,7 +677,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{asset('/resources/assets/eshopper/images/home/iframe4.png')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/home/iframe4.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -690,7 +690,7 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="address">
-							<img src="{{asset('/resources/assets/eshopper/images/home/map.png')}}" alt="" />
+							<img src="{{asset('assets/eshopper/images/home/map.png')}}" alt="" />
 							<p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
 						</div>
 					</div>
@@ -777,11 +777,11 @@
 	
 
   
-    <script src="{{asset('/resources/assets/eshopper/js/jquery.js')}}"></script>
-	<script src="{{asset('/resources/assets/eshopper/js/price-range.js')}}"></script>
-    <script src="{{asset('/resources/assets/eshopper/js/jquery.scrollUp.min.js')}}"></script>
-	<script src="{{asset('/resources/assets/eshopper/js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('/resources/assets/eshopper/js/jquery.prettyPhoto.js')}}"></script>
-    <script src="{{asset('/resources/assets/eshopper/js/main.js')}}"></script>
+    <script src="{{asset('assets/eshopper/js/jquery.js')}}"></script>
+	<script src="{{asset('assets/eshopper/js/price-range.js')}}"></script>
+    <script src="{{asset('assets/eshopper/js/jquery.scrollUp.min.js')}}"></script>
+	<script src="{{asset('assets/eshopper/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('assets/eshopper/js/jquery.prettyPhoto.js')}}"></script>
+    <script src="{{asset('assets/eshopper/js/main.js')}}"></script>
 </body>
 </html>
