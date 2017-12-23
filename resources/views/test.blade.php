@@ -5,3 +5,4 @@ echo 'base_path:'. base_path();
 echo '<br>';
 echo url()->current();
 echo '<br>';
+?>
