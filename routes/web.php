@@ -51,6 +51,7 @@ Route::get('/admin', 'Admin\AdminController@index');
 Route::get('/admin/dashboard', 'Admin\AdminController@index2');
 Route::get('/admin/pages/widgets', 'Admin\Pages\WidgetsController@widgets');
 Route::get('/admin/pages/calendar', 'Admin\Pages\CalendarController@calendar');
+Route::get('/admin/pages/charts', 'Admin\Pages\ChartsController@chartjs');
 
 
 

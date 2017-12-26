@@ -377,7 +377,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/charts/chartjs.blade.php"><i class="fa fa-circle-o"></i> ChartJS</a></li>
+            <li><a href="{{action('Admin\Pages\ChartsController@chartjs')}}"><i class="fa fa-circle-o"></i> ChartJS</a></li>
             <li><a href="pages/charts/morris.blade.php"><i class="fa fa-circle-o"></i> Morris</a></li>
             <li><a href="pages/charts/flot.blade.php"><i class="fa fa-circle-o"></i> Flot</a></li>
             <li><a href="pages/charts/inline.blade.php"><i class="fa fa-circle-o"></i> Inline charts</a></li>
