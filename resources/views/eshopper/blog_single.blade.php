@@ -6,22 +6,22 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Blog Single | E-Shopper</title>
-    <link href="{{asset('/resources/assets/eshopper/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('/resources/assets/eshopper/css/font-awesome.min.css')}}" rel="stylesheet">
-    <link href="{{asset('/resources/assets/eshopper/css/prettyPhoto.css')}}" rel="stylesheet">
-    <link href="{{asset('/resources/assets/eshopper/css/price-range.css')}}" rel="stylesheet">
-    <link href="{{asset('/resources/assets/eshopper/css/animate.css')}}" rel="stylesheet">
-	<link href="{{asset('/resources/assets/eshopper/css/main.css')}}" rel="stylesheet">
-	<link href="{{asset('/resources/assets/eshopper/css/responsive.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/eshopper/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/eshopper/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/eshopper/css/prettyPhoto.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/eshopper/css/price-range.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/eshopper/css/animate.css')}}" rel="stylesheet">
+	<link href="{{asset('assets/eshopper/css/main.css')}}" rel="stylesheet">
+	<link href="{{asset('assets/eshopper/css/responsive.css')}}" rel="stylesheet">
     <!--[if lt IE 9]>
     <script seshopper></script>
     <script seshopper></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="{{asset('/resources/assets/eshopper/images/ico/favicon.ico')}}">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset('/resources/assets/eshopper/images/ico/apple-touch-icon-144-precomposed.png')}}">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{asset('/resources/assets/eshopper/images/ico/apple-touch-icon-114-precomposed.png')}}">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{asset('/resources/assets/eshopper/images/ico/apple-touch-icon-72-precomposed.png')}}">
-    <link rel="apple-touch-icon-precomposed" href="{{asset('/resources/assets/eshopper/images/ico/apple-touch-icon-57-precomposed.png')}}">
+    <link rel="shortcut icon" href="{{asset('assets/eshopper/images/ico/favicon.ico')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset('assets/eshopper/images/ico/apple-touch-icon-144-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{asset('assets/eshopper/images/ico/apple-touch-icon-114-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{asset('assets/eshopper/images/ico/apple-touch-icon-72-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" href="{{asset('assets/eshopper/images/ico/apple-touch-icon-57-precomposed.png')}}">
 </head><!--/head-->
 
 <body>
@@ -57,7 +57,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="logo pull-left">
-							<a href="{{action('Frontend\FrontendController@index')}}"><img src="{{asset('/resources/assets/eshopper/images/home/logo.png')}}" alt="" /></a>
+							<a href="{{action('Frontend\FrontendController@index')}}"><img src="{{asset('assets/eshopper/images/home/logo.png')}}" alt="" /></a>
 						</div>
 						<div class="btn-group pull-right">
 							<div class="btn-group">
@@ -280,7 +280,7 @@
 						</div><!--/price-range-->
 						
 						<div class="shipping text-center"><!--shipping-->
-							<img src="{{asset('/resources/assets/eshopper/images/home/shipping.jpg')}}" alt="" />
+							<img src="{{asset('assets/eshopper/images/home/shipping.jpg')}}" alt="" />
 						</div><!--/shipping-->
 					</div>
 				</div>
@@ -304,7 +304,7 @@
 								</span>
 							</div>
 							<a href="">
-								<img src="{{asset('/resources/assets/eshopper/images/blog/blog-one.jpg')}}" alt="">
+								<img src="{{asset('assets/eshopper/images/blog/blog-one.jpg')}}" alt="">
 							</a>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> <br>
@@ -348,12 +348,12 @@
 					</div><!--/rating-area-->
 
 					<div class="socials-share">
-						<a href=""><img src="{{asset('/resources/assets/eshopper/images/blog/socials.png')}}" alt=""></a>
+						<a href=""><img src="{{asset('assets/eshopper/images/blog/socials.png')}}" alt=""></a>
 					</div><!--/socials-share-->
 
 					<div class="media commnets">
 						<a class="pull-left" href="#">
-							<img class="media-object" src="{{asset('/resources/assets/eshopper/images/blog/man-one.jpg')}}" alt="">
+							<img class="media-object" src="{{asset('assets/eshopper/images/blog/man-one.jpg')}}" alt="">
 						</a>
 						<div class="media-body">
 							<h4 class="media-heading">Annie Davis</h4>
@@ -375,7 +375,7 @@
 							<li class="media">
 								
 								<a class="pull-left" href="#">
-									<img class="media-object" src="{{asset('/resources/assets/eshopper/images/blog/man-two.jpg')}}" alt="">
+									<img class="media-object" src="{{asset('assets/eshopper/images/blog/man-two.jpg')}}" alt="">
 								</a>
 								<div class="media-body">
 									<ul class="sinlge-post-meta">
@@ -389,7 +389,7 @@
 							</li>
 							<li class="media second-media">
 								<a class="pull-left" href="#">
-									<img class="media-object" src="{{asset('/resources/assets/eshopper/images/blog/man-three.jpg')}}" alt="">
+									<img class="media-object" src="{{asset('assets/eshopper/images/blog/man-three.jpg')}}" alt="">
 								</a>
 								<div class="media-body">
 									<ul class="sinlge-post-meta">
@@ -403,7 +403,7 @@
 							</li>
 							<li class="media">
 								<a class="pull-left" href="#">
-									<img class="media-object" src="{{asset('/resources/assets/eshopper/images/blog/man-four.jpg')}}" alt="">
+									<img class="media-object" src="{{asset('assets/eshopper/images/blog/man-four.jpg')}}" alt="">
 								</a>
 								<div class="media-body">
 									<ul class="sinlge-post-meta">
@@ -470,7 +470,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{asset('/resources/assets/eshopper/images/home/iframe1.png')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/home/iframe1.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -485,7 +485,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{asset('/resources/assets/eshopper/images/home/iframe2.png')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/home/iframe2.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -500,7 +500,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{asset('/resources/assets/eshopper/images/home/iframe3.png')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/home/iframe3.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -515,7 +515,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{asset('/resources/assets/eshopper/images/home/iframe4.png')}}" alt="" />
+										<img src="{{asset('assets/eshopper/images/home/iframe4.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -528,7 +528,7 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="address">
-							<img src="{{asset('/resources/assets/eshopper/images/home/map.png')}}" alt="" />
+							<img src="{{asset('assets/eshopper/images/home/map.png')}}" alt="" />
 							<p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
 						</div>
 					</div>
@@ -615,11 +615,11 @@
 	
 
   
-    <script src="{{asset('/resources/assets/eshopper/js/jquery.js')}}"></script>
-	<script src="{{asset('/resources/assets/eshopper/js/price-range.js')}}"></script>
-	<script src="{{asset('/resources/assets/eshopper/js/jquery.scrollUp.min.js')}}"></script>
-	<script src="{{asset('/resources/assets/eshopper/js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('/resources/assets/eshopper/js/jquery.prettyPhoto.js')}}"></script>
-    <script src="{{asset('/resources/assets/eshopper/js/main.js')}}"></script>
+    <script src="{{asset('assets/eshopper/js/jquery.js')}}"></script>
+	<script src="{{asset('assets/eshopper/js/price-range.js')}}"></script>
+	<script src="{{asset('assets/eshopper/js/jquery.scrollUp.min.js')}}"></script>
+	<script src="{{asset('assets/eshopper/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('assets/eshopper/js/jquery.prettyPhoto.js')}}"></script>
+    <script src="{{asset('assets/eshopper/js/main.js')}}"></script>
 </body>
 </html>

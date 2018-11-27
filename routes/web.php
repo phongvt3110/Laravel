@@ -51,20 +51,21 @@ Route::get('/admin', 'Admin\AdminController@index');
 Route::get('/admin/dashboard', 'Admin\AdminController@index2');
 Route::get('/admin/pages/widgets', 'Admin\Pages\WidgetsController@widgets');
 Route::get('/admin/pages/calendar', 'Admin\Pages\CalendarController@calendar');
+Route::get('/admin/pages/charts', 'Admin\Pages\ChartsController@chartjs');
 
 
 
 // frontend routes
 Route::get('/', 'Frontend\FrontendController@index');
-Route::get('/frontend/blog', 'Frontend\FrontendController@blog');
-Route::get('/frontend/blog_single', 'Frontend\FrontendController@blog_single');
-Route::get('/frontend/cart', 'Frontend\FrontendController@cart');
-Route::get('/frontend/checkout', 'Frontend\FrontendController@checkout');
-Route::get('/frontend/contact_us', 'Frontend\FrontendController@contact_us');
-Route::get('/frontend/error404', 'Frontend\FrontendController@error404');
-Route::get('/frontend/login', 'Frontend\FrontendController@login');
-Route::get('/frontend/product_details', 'Frontend\FrontendController@product_details');
-Route::get('/frontend/shop', 'Frontend\FrontendController@shop');
+Route::get('/blog', 'Frontend\FrontendController@blog');
+Route::get('/blog_single', 'Frontend\FrontendController@blog_single');
+Route::get('/cart', 'Frontend\FrontendController@cart');
+Route::get('/checkout', 'Frontend\FrontendController@checkout');
+Route::get('/contact_us', 'Frontend\FrontendController@contact_us');
+Route::get('/error404', 'Frontend\FrontendController@error404');
+Route::get('/login', 'Frontend\FrontendController@login');
+Route::get('/product_details', 'Frontend\FrontendController@product_details');
+Route::get('/shop', 'Frontend\FrontendController@shop');
 
 
 Route::get('/test', 'Frontend\FrontendController@test');
