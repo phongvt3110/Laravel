@@ -9,9 +9,8 @@
 
                 <div class="panel-body">
                     You are logged in!
-                    <h1>Your are: {{$data['name']}}</h1>
+                    <h1>Your are: {{$data['user']->name}}</h1>
                     <br>
-                    {{var_dump($data)}}
                 </div>
             </div>
         </div>

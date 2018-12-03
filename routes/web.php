@@ -63,7 +63,7 @@ Route::get('/cart', 'Frontend\FrontendController@cart');
 Route::get('/checkout', 'Frontend\FrontendController@checkout');
 Route::get('/contact_us', 'Frontend\FrontendController@contact_us');
 Route::get('/error404', 'Frontend\FrontendController@error404');
-Route::get('/login', 'Frontend\FrontendController@login');
+Route::get('/frontend-login', 'Frontend\FrontendController@login');
 Route::get('/product_details', 'Frontend\FrontendController@product_details');
 Route::get('/shop', 'Frontend\FrontendController@shop');
 

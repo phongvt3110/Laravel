@@ -24,7 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $data = ['name' => Auth::user()->getAuthIdentifier()];
+        $data = ['user' => Auth::user()];
         return view('home',['data' => isset($data) ? $data : null]);
     }
     public function showwelcome(){
